@@ -1,6 +1,16 @@
+# Secretos y entorno
 .env
 .env.*
 !.env.example
+
+# Dumps, backups y logs
 *.dump
 *.sql.gz
+*.bak
+*.log
+
+# Volúmenes de datos
+pgdata/
+
+# SO
 .DS_Store
